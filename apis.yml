@@ -1,7 +1,27 @@
 aid: rubedolife
-name: Rubedolife
-description: Rubedolife is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rubedolife.png
+name: Rubedo Life Sciences
+description: Rubedo Life Sciences is a clinical-stage biotechnology company discovering
+  and developing precision medicines that target the biological drivers of aging and
+  age-related diseases. Its proprietary ALEMBIC drug-discovery platform identifies
+  and validates senescent ("zombie") cells that accumulate with age and drive chronic
+  disease, enabling the design of selective senolytic therapeutics. The company's lead
+  candidate, RLS-1496, is a first-in-class selective GPX4 modulator that has produced
+  positive Phase 1 dermatology results (plaque psoriasis, atopic dermatitis, skin
+  aging) and Phase 1b/2a data in actinic keratosis. Rubedo is backed by Khosla Ventures
+  and operates as a therapeutics company rather than a software/API provider — this
+  profile carries no developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/rubedolife/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Longevity
+- Senolytics
+- Drug Discovery
+- Aging
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.rubedolife.com/
+- type: Blog
+  url: https://www.rubedolife.com/investors-news/
+- type: Support
+  url: https://www.rubedolife.com/contact-us/
+- type: DomainSecurity
+  url: security/rubedolife-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
